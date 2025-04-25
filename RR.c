@@ -119,12 +119,9 @@ int main() {
                 visited[i] = 1;
             }
         }
-
         if (rem_bt[idx] > 0) {
             queue[rear++] = idx;
         }
-
-        // If queue becomes empty, move time to next arrival
         if (front == rear) {
             for (int i = 0; i < n; i++) {
                 if (!visited[i]) {

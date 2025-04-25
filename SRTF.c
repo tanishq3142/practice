@@ -19,7 +19,6 @@ int main(){
         rem_bt[i]=bt[i];
     }
     while(cnt<n){
-        // printf("count:%d\n",cnt);
         int mn = -1,mini = INT_MAX;
         for(int i=0;i<n;i++){
             if((rem_bt[i]>0)&&(at[i]<=curr_time)){
